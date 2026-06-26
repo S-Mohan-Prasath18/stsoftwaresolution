@@ -278,13 +278,7 @@ function DashboardPanel() {
           <h3 className="text-sm font-bold font-mono uppercase tracking-widest text-primary mb-4">
             Auditing Statistics Overview
           </h3>
-          <div className="grid grid-cols-2 gap-4 text-center">
-            <div className="border border-white/5 p-4 rounded bg-surface/30">
-              <div className="text-2xl font-bold text-red-400">{expiredMous.length}</div>
-              <div className="text-[9px] uppercase tracking-widest font-mono text-muted mt-1">
-                Expired Partnerships
-              </div>
-            </div>
+          <div className="grid grid-cols-1 gap-4 text-center">
             <div className="border border-white/5 p-4 rounded bg-surface/30">
               <div className="text-2xl font-bold text-primary">{leadsCount}</div>
               <div className="text-[9px] uppercase tracking-widest font-mono text-muted mt-1">
